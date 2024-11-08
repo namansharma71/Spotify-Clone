@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:85vh;
+    color: white;
+}
+
+.player {
+    text-align: center;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+
+    margin: 20px auto;
+}
+
+audio {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="player">
+            
+            <div class="album-cover"></div>
+            <div class="song-info">
+                <img src="teri.jpg">
+                <h2>Teri hi batoon me aisa uljha jiya</h2>
+                <p>Raghav, Tanishk Bagchi, Asees Kaur</p>
+            </div>
+            <audio controls id="audio-player">
+                <source src="Long Time No See-(DJPunjab).mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+
+</body>
+</html>
